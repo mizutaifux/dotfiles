@@ -1,0 +1,49 @@
+# --------------------------------------------------------------
+# cwmrc
+# by Mizu.Taifux
+# 2022 - Simple setup
+# Que a luz que a em ti não sejam trevas...
+# --------------------------------------------------------------
+borderwidth 1
+color activeborder orange
+color inactiveborder purple
+gap 0 0 0 0
+snapdist 3
+vtile 50
+htile 50
+sticky yes
+
+# ignora pregram by the tag name by not drawing borders arround them.
+ignore tdc
+trayer 
+
+
+# Menu / Font
+color menubg "white"
+color menufg "orange"
+color font "purple"
+color selfont "black"
+fontname terminus
+
+# bindings
+bind-key CM-r reload
+bind-key CM-l label
+bind-key 4-t xterm
+
+
+# window snap
+bind-key 4C-t window-snap-up
+bind-key 4C-b window-snap-down
+bind-key 4C-l window-snap-left
+bind-key 4C-r window-snap-right
+bind-key 4C-v window-vtile
+bind-key 4C-h window-htile
+bind-key 4C-m window-maximize
+bind-key 4C-f window-fullscreen
+
+
+# application menu
+command Terminal xterm
+command LXTerminal lxterminal
+command Browser chromium-browser
+# command Executar "rofi -show run"
