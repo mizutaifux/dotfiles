@@ -1,4 +1,4 @@
-# Dotfiles
+# CWM - Dotfiles
 ### RPI-B2-Dotfiles
 
 My first **C**alm **W**indow **M**anager (CWM) desktop.
